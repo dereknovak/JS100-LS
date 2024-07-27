@@ -1,7 +1,6 @@
 function factorial(counter) {
-  while (counter > 0)
-
-  
+  if (counter === 1) return counter;
+  return counter * factorial(counter - 1);
 }
 
 console.log(factorial(1));
