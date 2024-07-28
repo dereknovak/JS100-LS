@@ -1,0 +1,1 @@
+All of the above values can be used as keys, though JavaScript will coerce the non-string values to strings. Therefore, values such as `1` and `'1'` are actually the same key.
